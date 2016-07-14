@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/lunch"/>
+
+    <TextView
+        android:id="@+id/app_copyright_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/app_copyright_info_bottom_margin"
+        android:gravity="center"
+        android:text="版权信息"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</FrameLayout>
