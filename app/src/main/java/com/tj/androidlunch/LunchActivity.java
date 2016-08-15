@@ -72,8 +72,8 @@ public class LunchActivity extends Activity {
     }
 
     @Override
-    protected void onStop() {
-        super.onStop();
+    protected void onPause() {
+        super.onPause();
         mStartMainActivityHandler.removeCallbacksAndMessages(null);
     }
 
